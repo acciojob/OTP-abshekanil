@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+.otp-container{
+	width:97vw;
+	height:80vh;
+	border:3px solid black;
+	border-radius: 10px;
+}
+h2{
+	text-align:center;
+	margin-top: 3rem;
+}
+
+p{
+	text-align:center;
+	margin-bottom: 3rem;
+}
+
+.otp-numbers{
+	display:flex;
+	flex-direction:row;
+}
+.otp-numbers>input{
+	height:75px;
+	width:60px;
+	margin-left:60px;
+	font-size:50px
+}
