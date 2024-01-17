@@ -10,13 +10,18 @@
 	<div class="otp-container">
 		<h2 id="verification_heading">Verify Your Account</h2>
 		<p id="verification_subtext">We emailed you the six digit to acciojob@gmail.com Enter the code below to confirm your email address.</p>
-		<div class="otp-numbers">
-			<input type="number" >
-			<input type="number" disabled>
-			<input type="number" disabled>
-			<input type="number" disabled>
-			<input type="number" disabled>
-			<input type="number" disabled>
+		<div class="code-container">
+			<input type="text" class="code" placeholder="0"  maxlength="1" id="input1" oninput="handleInput(1)" onkeydown="handleKeyDown(1)">
+			<input type="text" class="code" disabled placeholder="0" maxlength="1" id="input2" oninput="handleInput(2)" onkeydown="handleKeyDown(2)">
+			<input type="text" class="code" disabled placeholder="0" maxlength="1" id="input3" oninput="handleInput(3)" onkeydown="handleKeyDown(3)">
+			<input type="text" class="code" disabled placeholder="0" maxlength="1" id="input4" oninput="handleInput(4)" onkeydown="handleKeyDown(4)">
+			<input type="text"  class="code" disabled placeholder="0" maxlength="1" id="input5" oninput="handleInput(5)" onkeydown="handleKeyDown(5)">
+			<input type="text" class="code" disabled placeholder="0" maxlength="1" id="input6" oninput="handleInput(6)" onkeydown="handleKeyDown(6)">
+		</div>
+		<div class="bottom-container">
+			<div class="bottom-box">
+				<p class="bottom-para">This is design only. We didn't actually send you an email as we don't have your email,right?</p>
+				<div>
 		</div>
 	</div>
 	<!-- the entire body must be written by student -->

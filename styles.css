@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
 .otp-container{
 	width:97vw;
-	height:80vh;
+	height:65vh;
 	border:3px solid black;
 	border-radius: 10px;
 }
@@ -10,18 +10,38 @@ h2{
 	margin-top: 3rem;
 }
 
-p{
+.otp-container>p{
 	text-align:center;
 	margin-bottom: 3rem;
 }
 
-.otp-numbers{
+.code-container{
 	display:flex;
 	flex-direction:row;
 }
-.otp-numbers>input{
+.code-container>input{
 	height:75px;
 	width:60px;
-	margin-left:60px;
-	font-size:50px
+	margin-left:45px;
+	font-size:50px;
+	text-align:center;
+}
+input::-webkit-inner-spin-button {
+         -webkit-appearance: none;
+}
+.bottom-container{
+	display:flex;
+	justify-content:center;
+	margin-top:4rem
+}
+.bottom-box{
+	
+	width:55vw;
+	height:55px;
+	background-color:lightgrey;
+}
+.bottom-para{
+	text-align:center;
+	font-size:15px;
+
 }
